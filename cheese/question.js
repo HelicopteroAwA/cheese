@@ -16,10 +16,6 @@ function wru(){
     fb2.style.animation = "fade-in 1.5s forwards";
     sb2.style.display = "block";
     sb2.style.animation = "fade-in 1.5s forwards";
-    //fb1.style.animation = "fade-in 1.5s forwards";
-    //sb1.style.animation = "fade-in 1.5s forwards";
-    //fb1.setAttribute ("onclick", "witp();")
-    //fb1.innerHTML = "What is this place"
 
     speech1.innerHTML = "Who am <i>I</i>, you ask? I'll pardon thine ignorance due to thy species' lack of mental capacity. Remember well for I am the <b>Rat God</b> himself, sovereign of cheese."
 }
@@ -30,8 +26,6 @@ function witp(){
     fb3.style.animation = "fade-in 1.5s forwards";
     sb3.style.display = "block";
     sb3.style.animation = "fade-in 1.5s forwards";
-    //fb1.style.animation = "fade-in 1.5s forwards";
-    //sb1.style.animation = "fade-in 1.5s forwards";
     speech1.innerHTML = "This, ignorant human, is the <b>sacred Domain of the Rats</b>, and your mere presence is a <b>sin</b>. For that, I command you to leave. <b>Right now</b>. Or else..."
 }
 function tsmu(){
@@ -51,7 +45,7 @@ function tsmu(){
 function painful(){
     fb3.style.display = "none";
     sb3.style.display = "none";
-    //while(true){ console.log("a"); }
+    while(true){ console.log("a"); }
 }
 
 function fy(){
