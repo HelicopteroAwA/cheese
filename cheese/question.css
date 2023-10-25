@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgb(38,0,0);
+    background: linear-gradient(0deg, rgba(38,0,0,1) 0%, rgba(30,0,0,1) 7%, rgba(0,0,0,1) 100%);    
+}
+#cheesegod {
+    display: block;
+    margin-top: 20px;
+    animation: fade-in 2s forwards;
+    animation-fill-mode:forwards;
+    opacity: 0;
+    
+}
+.container {
+  height: 300px;
+  position: relative;
+  border: 0 solid green;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.button1{
+    height: 100px;
+    position: absolute;
+    border: 0 solid green;
+    top: 67%;
+    left: 410px;
+    text-align: center;
+}
+.button2{
+    height: 100px;
+    position: absolute;
+    border: 0 solid green;
+    top: 67%;
+    right: 432px;
+    text-align: center;
+}
+.button3{
+    width: 100%;
+    position: absolute;
+    border: 0 solid green;
+    top: 68%;
+    text-align: center;
+}
+
+#firstbut{
+    font-size: 20px;
+    animation: fade-in 1.5s forwards 1.5s;
+    opacity: 0;
+}
+#firstbut2{
+    font-size: 20px;
+    display: none;
+}
+#firstbut3{
+    font-size: 20px;
+    display: none;
+}
+
+#scndbut{
+    font-size: 20px;
+    animation: fade-in 1.5s forwards 1.5s;
+    opacity: 0;
+}
+#scndbut2{
+    font-size: 20px;
+    display: none;
+}
+#scndbut3{
+    font-size: 20px;
+    display: none;
+}
+#thirdbut{
+    font-size: 20px;
+    display: none;
+    margin: 0 auto
+}
+#speech1{
+    color:rgb(217, 61, 85);   
+   
+}
+.text1{
+    height: -50px;
+    width: 550px;
+    left: -19%;
+    position: absolute;
+    border: 0 solid green;  
+    font-size: 20px;
+    text-align: center;
+    animation: fade-in 1.5s forwards 1.2s;
+    opacity: 0;
+    visibility: visible;
+}
+@keyframes fade-in{
+    from{transform: translateY(100px);}
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

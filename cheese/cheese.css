@@ -1,0 +1,37 @@
+body{
+  background-color:bisque;
+}
+#cheesemg{
+    display: none;
+    margin: auto;
+}
+#cheesebutton{
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:orange;
+    font-size: 25px;
+}
+#cheese{
+    text-align: center;
+}
+#cheesecret{
+  display: none;
+  border: none;
+  background-color: bisque;
+  color: bisque;
+
+}
+.container {
+  height: 200px;
+  position: relative;
+  border: 0 solid green;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
